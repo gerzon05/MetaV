@@ -1,0 +1,253 @@
+.principal{
+    z-index: -1;
+    background: linear-gradient(180deg, #010208 16.39%, #010206 20.51%, #040008 24.79%, #010101 30.46%, #010101 34.11%, #010101 36.21%, #010101 100%);
+}
+.principal .fondo .fon1, .fon2,.fon3, .fon4, .fon5, .fon6{
+    z-index: -1;
+}
+.position-relative{
+    z-index: 0;
+}
+*{
+    font-family: 'Orbitron', sans-serif;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+}
+p, li{
+    font-family: 'Poppins', sans-serif; 
+}
+.principal .barranav .buscadores2{
+    display: none;
+}
+.parte1 .row .text-light h2 span, .parte2 .row .col-10 h2 span, .parte3 .row .col h2 span, .parte4color, footer h2{
+    background: linear-gradient(97.16deg, #F86CF8 12.04%, #64CEF5 81.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.parte1 .row .text-light .boton1p1, .parte2 .row .col-10 button, .parte3 .contenidop3 .col-md-4 .b1p3{
+    background: linear-gradient(97.16deg, #D10ED1 12.04%, #10A3DA 81.84%);
+}
+.parte1 .row .text-light .boton2p1, .parte3 .contenidop3 .col-md-4 .b2p3{
+    border: 1px solid #D10ED1;
+    background-color: transparent;
+}
+#p4 .imgmovil img{
+    width: 100%;
+}
+.parte1 .row .imagenp1 .img{
+    width: 5%;
+}
+.barranav .buscadores2 .col a{
+        border-bottom: 2px solid transparent;
+}
+.barranav .buscadores2 .col a:hover{
+        border-bottom: 2px solid white;
+}
+.barranav .buscador1 .col a{
+        border-bottom: 2px solid transparent;
+}
+.barranav .buscador1 .col a:hover{
+        border-bottom: 2px solid white;
+}
+.barranav .buscador1 .col{
+    display: none;
+}
+.barranav .row .col-1{
+    display: none;
+}
+
+.parte1 .row .imagenp1 .img,.parte1 .row .text-light .row .col-2{
+    display: none;
+}
+.parte1 .row .imagenp1 .row{
+    display: none;
+}
+
+.parte3 .row .col-md-4{
+    background-color: #090823;
+    border-radius: 0 10% 0 10%;
+    width: 30%;
+}
+.parte3 .contenidop3{
+    gap: 20px;
+}
+.parte3 .contenidop3 div img{
+    width: 100%;
+}
+.parte3 .row {
+    margin: 0;
+}
+
+.fon1{
+    left: -12%;
+}
+.fon2{
+    right: -24.8%;
+    top: 8%;
+    transform: rotate(90deg);
+}
+.fon3{
+    left: -25%;
+    transform: rotate(-90deg);
+    top: 23%;
+}
+.fon4{
+    right: -24.5%;
+    top: 48%;
+    transform: rotate(90deg);
+}
+.fon5{
+    left: -25%;
+    transform: rotate(-90deg);
+    top: 63%;
+}
+.fon6{
+    right: -24.5%;
+    top: 75%;
+    transform: rotate(90deg);
+}
+.parte4 .justify-content-end .col-md-11 .img{
+    width: 8%;
+}
+
+.parte4 .imgmovil{
+    display: none;
+}
+
+footer{
+    background: #090823;
+}
+
+
+button:hover{
+            opacity: 0;
+            animation-name: magic;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+          }
+    @keyframes magic {
+            0%{
+                opacity: 0;
+                transform: scale(.3) translate3d(0px, 0px, 0px);
+            }
+            50%{
+                opacity: .9;
+                transform: scale(1.1);
+            }
+            80%{
+                opacity: 1;
+                transform: scale(.89);
+            }
+            100%{
+                opacity: 1;
+                transform: scale(1) translate3d(0px, 0px, 0px);
+            }
+/*            100% {
+              opacity: 0;
+              -webkit-transform-origin: 200% 500%;
+              transform-origin: 200% 500%;
+              -webkit-transform: scale(0, 0) rotate(270deg);
+              transform: scale(0, 0) rotate(270deg);
+            }
+*/
+          }
+    
+    .parte1 .row .imagenp1 .img-fluit{
+        animation-name: imagen;
+        animation-duration: 6s;
+        width: 100%;
+    }
+    @keyframes imagen {
+        0%{-webkit-transform:rotate3d(-1,1,0,80deg);
+        transform:rotate3d(-1,1,0,80deg);
+        opacity:0}100%{-webkit-transform:rotate3d(1,1,0,0deg);
+        transform:rotate3d(1,1,0,0deg);opacity:1}}
+
+    .parte1 .row .imagenp1 .img{
+        animation-name: img;
+        animation-duration: 4s;
+    }
+    @keyframes img{
+        0%{-webkit-transform:translateY(-1000px) scaleY(2.5) scaleX(.2);
+        transform:translateY(-1000px) scaleY(2.5) scaleX(.2);
+        -webkit-transform-origin:50% 0;
+        transform-origin:50% 0;-webkit-filter:blur(40px);
+        filter:blur(40px);
+        opacity:0}100%{-webkit-transform:translateY(0) scaleY(1) scaleX(1);
+        transform:translateY(0) scaleY(1) scaleX(1);
+        -webkit-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-filter:blur(0);filter:blur(0);
+        opacity:1}}
+        
+    .barranav .row .col-10{
+        animation-name: logo;
+        animation-duration: 6s;
+    }
+    @keyframes logo {
+        0%{-webkit-transform:translateZ(-1400px);
+        transform:translateZ(-1400px);
+        opacity:0}100%{-webkit-transform:translateZ(0);
+        transform:translateZ(0);
+        opacity:1}}
+
+    .parte2 .row .col-10 img{
+        animation-name: imgp2;
+        animation-duration: 4s;
+        animation-delay: 5s;
+        width: 100%;
+    }
+
+    @keyframes imgp2 {
+        0%{-webkit-transform:translateX(-800px) rotateY(-30deg) scale(6.5);
+        transform:translateX(-800px) rotateY(-30deg) scale(6.5);
+        -webkit-transform-origin:200% 50%;
+        transform-origin:200% 50%;opacity:0}
+        100%{-webkit-transform:translateX(0) rotateY(0) scale(1);
+        transform:translateX(0) rotateY(0) scale(1);
+        -webkit-transform-origin:-600px 50%;
+        transform-origin:-600px 50%;
+        opacity:1}
+    }
+
+    .fon1, .fon2, .fon3, .fon4, .fon5, .fon6{
+        animation-name: fondosc;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        width: 100%;
+    }
+    
+    @keyframes fondosc {
+        0%{opacity:0}
+        10%{opacity:0}
+        10.1%{opacity:1}
+        10.2%{opacity:0}
+        20%{opacity:0}
+        20.1%{opacity:1}
+        20.6%{opacity:0}
+        30%{opacity:0}
+        30.1%{opacity:1}
+        30.5%{opacity:1}
+        30.6%{opacity:0}
+        45%{opacity:0}
+        45.1%{opacity:1}
+        50%{opacity:1}
+        55%{opacity:1}
+        55.1%{opacity:0}
+        57%{opacity:0}
+        57.1%{opacity:1}
+        60%{opacity:1}
+        60.1%{opacity:0}
+        65%{opacity:0}
+        65.1%{opacity:1}
+        75%{opacity:1}
+        75.1%{opacity:0}
+        77%{opacity:0}
+        77.1%{opacity:1}
+        85%{opacity:1}
+        85.1%{opacity:0}
+        86%{opacity:0}
+        86.1%{opacity:1}
+        100%{opacity:1}
+    }

@@ -1,0 +1,777 @@
+@media (max-width: 575px) {
+    .barranav{
+        padding-top: 6%;
+    }
+    .barranav .row .col-1{
+        display: block;
+    }
+    .parte1 .row .imagenp1 .row{
+        display: block;
+    }
+    .principal .barranav .buscadores2{
+        display: block;
+        text-align: center;
+        font-size: 30px;
+    }
+    .barranav .buscadores2 .col {
+        display: block;
+    }
+    .parte1{
+        padding: 10% 0;
+    }
+    .parte1 .row{
+        justify-content: center;
+        text-align: center;
+    }
+    .parte1 .row .text-light h2{
+        font-size: 28px;
+    }
+    .parte1 .row .text-light p{
+        font-size: 15px;
+    }
+    .parte1 .row .text-light button{
+        padding: 7px 10px;
+        border-radius: 10px;
+    }
+    .parte1 .row .text-light{
+        order: 2;
+    }
+    .parte1 .row .imagenp1 .row .p1{
+        left: -67px;
+        top: 44px;
+    }
+    .parte1 .row .imagenp1 .row .p2{
+        top: -29px;
+        left: 46px;
+    }
+    .parte1 .row .imagenp1 .row .p3{
+        left: 94%;
+        top: 0px;
+    }
+
+    .parte2 .row .textop2{
+        padding-top: 7%;
+    }
+    .parte2 .row .textop2 p{
+        padding: 7% 0%;
+        font-size: 15px;
+    }
+    .parte2 .row .col-10 button{
+        padding: 3% 8%;
+        border-radius: 10px;
+    }
+
+    .parte3{
+        padding: 0 10%;
+    }
+    .parte3 .row .eliminar{
+        display: none;
+    }
+    .parte3 .row .col{
+        padding-bottom: 10%;
+    }
+    .parte3 .row .col h2{
+        font-size: 33px;
+    }
+    .parte3 .row .col p{
+        font-size: 15px;
+    }
+    .parte3 .row .col h2, .parte3 .row .col p{
+        padding-right: 10%;
+    }
+    .parte3 .row .col i{
+        position: absolute;
+        left: 93%;
+        top: 15%;
+        font-size: 30px;
+    }
+    .parte3 .contenidop3 .col-12 h4, .parte3 .contenidop3 .col-10 p{
+        padding: 5% 0;
+    }
+    .parte3 .contenidop3 .col-12{
+        padding: 5% 10%;
+        width: 100%;
+    }
+    .parte3 .contenidop3 .col-md-4 h4{
+        font-size: 15px;
+    }
+    .parte3 .contenidop3 .col-md-4 p{
+        font-size: 11px;
+    }
+    .parte3 .contenidop3 .col-md-4 button{
+        padding: 2% 5%;
+        border-radius: 12px;
+    }
+
+    .parte4{
+        padding: 7% 10%;
+    }
+    .parte4 .justify-content-end{
+        display: none;
+    }
+    .parte4 .imgmovil{
+        display: block;
+    }
+    .parte4 .imgmovil .col-sm-12 .row div h2{
+        font-size: 30px;
+    }
+    .parte4 .imgmovil .col-sm-12 .row div a{
+        font-size: 65px;
+    }
+
+    footer{
+        padding: 10% 10%;
+    }
+    footer .text-light .col-12, footer .text-light .col-md-2{
+        padding-bottom: 7%;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .barranav{
+        padding-top: 4%;
+    }
+    .barranav .row .col-1{
+        display: block;
+    }
+    .parte1 .row .imagenp1 .row{
+        display: block;
+    }
+        .principal .barranav .buscadores2{
+        display: block;
+        text-align: center;
+        font-size: 30px;
+    }
+    .barranav .buscadores2 .col {
+        display: block;
+    }
+    .barranav .buscadores2 .col a{
+        border-bottom: 2px solid transparent;
+    }
+    .barranav .buscadores2 .col a:hover{
+        border-bottom: 2px solid white;
+    }
+    .parte1{
+        padding: 10% 0;
+    }
+    .parte1 .row{
+        justify-content: center;
+        text-align: center;
+    }
+    .parte1 .row .text-light h2{
+        font-size: 52px;
+    }
+    .parte1 .row .text-light p{
+        font-size: 30px;
+    }
+    .parte1 .row .text-light button{
+        padding: 7px 20px;
+        border-radius: 10px;
+    }
+    .parte1 .row .text-light{
+        order: 2;
+    }
+    .parte1 .row .imagenp1 .row .p1{
+        left: -50px;
+        top: 127px;
+    }
+    .parte1 .row .imagenp1 .row .p2{
+        top: -20px;
+        left: 126px;
+    }
+    .parte1 .row .imagenp1 .row .p3{
+        left: 94%;
+        top: 42px;
+    }
+
+    .parte2 .row .textop2{
+        padding-top: 7%;
+    }
+    .parte2 .row .textop2 h2{
+        font-size: 40px;
+    }
+    .parte2 .row .textop2 p{
+        padding: 7% 0%;
+        font-size: 16px;
+    }
+    .parte2 .row .textop2 button a{
+        font-size: 20px;
+    }
+    .parte2 .row .col-10 button{
+        padding: 2% 8%;
+        border-radius: 10px;
+    }
+
+    .parte3{
+        padding: 0 10%;
+    }
+    .parte3 .row .eliminar{
+        display: none;
+    }
+    .parte3 .row .col{
+        padding-bottom: 10%;
+    }
+    .parte3 .row .col h2{
+        font-size: 52px;
+    }
+    .parte3 .row .col p{
+        font-size: 21px;
+    }
+    .parte3 .row .col h2, .parte3 .row .col p{
+        padding-right: 10%;
+    }
+    .parte3 .row .col i{
+        position: absolute;
+        left: 93%;
+        top: 15%;
+        font-size: 30px;
+    }
+    .parte3 .contenidop3 .col-12{
+        padding: 5% 10%;
+        width: 100%;
+    }
+    .parte3 .contenidop3 .col-12 h4, .parte3 .contenidop3 .col-10 p{
+        padding: 4% 0;
+    }
+    .parte3 .contenidop3 .col-md-4 h4{
+        font-size: 32px;
+    }
+    .parte3 .contenidop3 .col-md-4 p{
+        font-size: 18px;
+    }
+    .parte3 .contenidop3 .col-md-4 button{
+        padding: 2% 7%;
+        border-radius: 12px;
+    }
+
+    .parte4{
+        padding: 7% 10%;
+    }
+    .parte4 .justify-content-end{
+        display: none;
+    }
+    .parte4 .imgmovil{
+        display: block;
+    }
+    .parte4 .text-light .col-12 h2{
+        font-size: 40px;
+    }  
+    .parte4 .imgmovil .col-sm-12 .row div h2{
+        font-size: 50px;
+    }
+    .parte4 .imgmovil .col-sm-12 .row div a{
+        font-size: 85px;
+    }
+
+    footer{
+        padding: 10% 10%;
+    }
+    footer h4, footer h2{
+        font-size: 30px;
+    }
+    footer li, footer i, footer p{
+        font-size: 20px;
+    }
+    footer .text-light .col-12, footer .text-light .col-md-2{
+        padding-bottom: 7%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .barranav{
+        padding-top: 4%;
+    }
+    .barranav .row .col{
+        display: block;
+    }
+    .parte1 .row .imagenp1 .img,.parte1 .row .text-light .row .col-2{
+        display: block;
+    }
+    .parte1 .row .text-light .row{
+        gap: 60px;
+    }
+
+    .parte1{
+        padding: 10% 0;
+    }
+    .parte1 .row .text-light button{
+        padding: 10px 30px;
+        border-radius: 10px;
+    }
+    .parte1 .row .imagenp1 .row{
+        display: none;
+    }
+    .parte1 .row .imagenp1{
+        order: 2;
+    }
+
+    .parte1 .row .imagenp1 .img{
+        left: 52%;
+        top: 107px;
+    }
+
+
+    .parte2 .row .textop2{
+        padding-left: 5%;
+    }
+    .parte2 .row .textop2 p{
+        padding: 4% 0 6% 0;
+        font-size: 14px;
+    }
+    .parte2 .row .textop2 button a{
+        font-size: 20px;
+    }
+    .parte2 .row .col-10 button{
+        padding: 2% 8%;
+        border-radius: 10px;
+    }
+
+
+    .parte3 .row{
+        justify-content: center;
+    }
+    .parte3 .row .col i{
+        display: none;
+    }
+    .parte3 .row .col{
+        padding-bottom: 5%;
+    }
+    .parte3 .row .col h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .parte3 .row .col p{
+        font-size: 11px;
+        text-align: center;
+    }
+    .parte3 .row .col p{
+        padding: 0 10%;
+    }
+    .parte3 .row .col i{
+        position: absolute;
+        left: 93%;
+        top: 15%;
+        font-size: 30px;
+    }
+    .parte3 .contenidop3 .col-md-4{
+        padding: 2% 2%;
+        width: 25%;
+    }
+    .parte3 .contenidop3 .col-md-4 h4, .parte3 .contenidop3 .col-md-4 p{
+        padding: 4% 0;
+    }
+    .parte3 .contenidop3 .col-md-4 h4{
+        font-size: 15px;
+    }
+    .parte3 .contenidop3 .col-md-4 p{
+        font-size: 13px;
+    }
+    .parte3 .contenidop3 .col-md-4 button{
+        padding: 2% 7%;
+        border-radius: 12px;
+    }
+
+    .parte4 .text-light{
+        padding: 7% 10% 0 10%;
+    }
+    .parte4 .text-light .col-12 h2{
+        font-size: 35px;
+        text-align: center;
+    }
+    .parte4 .text-light .col-12 p{
+        font-size: 17px;
+        text-align: center;
+    }
+    .parte4 .justify-content-end .col-md-11 img{
+        height: 80%;
+        width: 100%;
+    }
+
+    footer{
+        padding: 5% 5%;
+    }
+    footer h4, footer h2{
+        font-size: 20px;
+    }
+    footer li, footer i, footer p{
+        font-size: 10px;
+    }
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .barranav{
+        padding-top: 2%;
+    }
+    .barranav .row .col{
+        display: block;
+    }
+    .parte1 .row .imagenp1 .img,.parte1 .row .text-light .row .col-2{
+        display: block;
+    }
+    .parte1 .row .text-light .row{
+        gap: 70px;
+    }
+
+    .parte1{
+        padding: 5% 0;
+    }
+    .parte1 .row .text-light button{
+        padding: 13px 45px;
+        border-radius: 10px;
+    }
+    .parte1 .row .imagenp1 .img{
+        left: 52%;
+        top: 107px;
+    }
+    .parte1 .row .text-light h2{
+        font-size: 40px;
+    }
+    .parte1 .row .text-light p{
+        font-size: 20px;
+    }
+
+    
+    .parte2 .row .textop2{
+        padding-left: 5%;
+    }
+    .parte2 .row .textop2 h2{
+        font-size: 40px;
+    }
+    .parte2 .row .textop2 p{
+        padding: 4% 0 6% 0;
+        font-size: 18px;
+    }
+    .parte2 .row .textop2 button a{
+        font-size: 20px;
+    }
+    .parte2 .row .col-10 button{
+        padding: 2% 8%;
+        border-radius: 10px;
+    }
+
+    .parte3 .row{
+        justify-content: center;
+        width: 100%;
+    }
+    .parte3 .row .col i{
+        display: none;
+    }
+    .parte3 .row .col{
+        padding-bottom: 5%;
+    }
+    .parte3 .row .col h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .parte3 .row .col p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .parte3 .row .col p{
+        padding: 0 10%;
+    }
+    .parte3 .row .col i{
+        position: absolute;
+        left: 93%;
+        top: 15%;
+        font-size: 30px;
+    }
+    .parte3 .contenidop3 .col-md-4{
+        padding: 2% 2%;
+    }
+    .parte3 .contenidop3 .col-md-4 h4, .parte3 .contenidop3 .col-md-4 p{
+        padding: 4% 0;
+    }
+    .parte3 .contenidop3 .col-md-4 h4{
+        font-size: 15px;
+    }
+    .parte3 .contenidop3 .col-md-4 p{
+        font-size: 15px;
+    }
+    .parte3 .contenidop3 .col-md-4 button{
+        padding: 2% 7%;
+        border-radius: 12px;
+    }
+
+    .parte4 .text-light{
+        padding: 7% 10% 0 10%;
+    }
+    .parte4 .text-light .col-12 h2{
+        font-size: 36px;
+        text-align: center;
+    }
+    .parte4 .text-light .col-12 p{
+        font-size: 25px;
+        text-align: center;
+    }
+    .parte4 .justify-content-end .col-md-11 img{
+        height: 74%;
+    }
+
+    footer{
+        padding: 5% 5%;
+    }
+    footer h4, footer h2{
+        font-size: 27px;
+    }
+    footer li, footer p{
+        font-size: 15px;
+    }
+    footer i{
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .barranav{
+        padding-top: 2%;
+    }
+    .barranav .row .col{
+        display: block;
+    }
+    .parte1 .row .imagenp1 .img,.parte1 .row .text-light .row .col-2{
+        display: block;
+    }
+    .parte1 .row .text-light .row{
+        gap: 45px;
+    }
+    .parte1{
+        padding: 5% 5% 0 5%;
+    }
+    .parte1 .row .text-light button{
+        padding: 15px 50px;
+        border-radius: 10px;
+    }
+    .parte1 .row .imagenp1 .img{
+        left: 52%;
+        top: 107px;
+    }
+    .parte1 .row .text-light h2{
+        font-size: 48px;
+    }
+    .parte1 .row .text-light p{
+        font-size: 25px;
+    }
+
+    .parte2 .row .textop2{
+        padding-left: 5%;
+    }
+    .parte2 .row .textop2 h2{
+        font-size: 43px;
+    }
+    .parte2 .row .textop2 p{
+        padding: 4% 0 6% 0;
+        font-size: 20px;
+    }
+    .parte2 .row .textop2 button a{
+        font-size: 20px;
+    }
+    .parte2 .row .col-10 button{
+        padding: 2% 8%;
+        border-radius: 10px;
+    }
+
+    .parte3 .row{
+        justify-content: center;
+        width: 100%;
+    }
+    .parte3 .row .col i{
+        display: none;
+    }
+    .parte3 .row .col{
+        padding-bottom: 5%;
+    }
+    .parte3 .row .col h2{
+        font-size: 39px;
+        text-align: center;
+    }
+    .parte3 .row .col p{
+        font-size: 17px;
+        text-align: center;
+    }
+    .parte3 .row .col p{
+        padding: 0 10%;
+    }
+    .parte3 .row .col i{
+        position: absolute;
+        left: 93%;
+        top: 15%;
+        font-size: 30px;
+    }
+    .parte3 .contenidop3 .col-md-4{
+        padding: 2% 2%;
+        width: 30%;
+    }
+    .parte3 .contenidop3 .col-md-4 h4, .parte3 .contenidop3 .col-md-4 p{
+        padding: 4% 0;
+    }
+    .parte3 .contenidop3 .col-md-4 h4{
+        font-size: 15px;
+    }
+    .parte3 .contenidop3 .col-md-4 p{
+        font-size: 18px;
+    }
+    .parte3 .contenidop3 .col-md-4 button{
+        padding: 2% 7%;
+        border-radius: 12px;
+    }
+
+    .parte4 .text-light{
+        padding: 7% 10% 0 10%;
+    }
+    .parte4 .text-light .col-12 h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    .parte4 .text-light .col-12 p{
+        font-size: 30px;
+        text-align: center;
+    }
+    .parte4 .justify-content-end .col-md-11 img{
+        height: 90%;
+    }
+
+    footer{
+        padding: 5% 5%;
+    }
+    footer h4, footer h2{
+        font-size: 27px;
+    }
+    footer li, footer p{
+        font-size: 15px;
+    }
+    footer i{
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1400px) { 
+    .barranav{
+        padding-top: 2%;
+    }
+    .barranav .row .col{
+        display: block;
+    }
+    .parte1 .row .imagenp1 .img,.parte1 .row .text-light .row .col-2{
+        display: block;
+    }
+    .parte1 .row .text-light .row{
+        gap: 40px;
+    }
+    .parte1{
+        padding: 3% 0;
+    }
+    .parte1 .row .text-light button{
+        padding: 15px 55px;
+        border-radius: 10px;
+    }
+    .parte1 .row .imagenp1 .img{
+        left: 52%;
+        top: 107px;
+    }
+    .parte1 .row .text-light h2{
+        font-size: 70px;
+    }
+    .parte1 .row .text-light p{
+        font-size: 40px;
+    }
+
+    .parte2 .row .textop2{
+        padding-left: 5%;
+    }
+    .parte2 .row .textop2 h2{
+        font-size: 43px;
+    }
+    .parte2 .row .textop2 p{
+        padding: 4% 0 6% 0;
+        font-size: 20px;
+    }
+    .parte2 .row .textop2 button a{
+        font-size: 20px;
+    }
+    .parte2 .row .col-10 button{
+        padding: 2% 8%;
+        border-radius: 10px;
+    }
+
+    .parte3 .row{
+        justify-content: center;
+    }
+    .parte3 .row .col i{
+        display: none;
+    }
+    .parte3 .row .col{
+        padding-bottom: 5%;
+    }
+    .parte3 .row .col h2{
+        font-size: 48px;
+        text-align: center;
+    }
+    .parte3 .row .col p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .parte3 .row .col p{
+        padding: 0 10%;
+    }
+    .parte3 .row .col i{
+        position: absolute;
+        left: 93%;
+        top: 15%;
+        font-size: 30px;
+    }
+    .parte3 .contenidop3 .col-md-4{
+        padding: 2% 2%;
+    }
+    .parte3 .contenidop3 .col-md-4 h4, .parte3 .contenidop3 .col-md-4 p{
+        padding: 4% 0;
+    }
+    .parte3 .contenidop3 .col-md-4 h4{
+        font-size: 24px;
+    }
+    .parte3 .contenidop3 .col-md-4 p{
+        font-size: 26px;
+    }
+    .parte3 .contenidop3 .col-md-4 button{
+        padding: 2% 7%;
+        border-radius: 12px;
+    }
+
+    .parte4 .text-light{
+        padding: 7% 10% 0 10%;
+        width: 100%;
+    }
+    .parte4 .text-light .col-12 h2{
+        font-size: 45px;
+        text-align: center;
+    }
+    .parte4 .text-light .col-12 p{
+        font-size: 35px;
+        text-align: center;
+    }
+    .parte4 .justify-content-end .col-md-11 img{
+        width: 100%;
+    }
+
+
+    footer{
+        padding: 5% 5%;
+    }
+    footer h4, footer h2{
+        font-size: 35px;
+    }
+    footer li, footer p{
+        font-size: 22px;
+    }
+    footer i{
+        font-size: 50px;
+    }
+}
+@media (min-width:1127px){
+    .fon6{
+    display: none;
+    }
+}
