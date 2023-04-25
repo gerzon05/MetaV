@@ -69,8 +69,8 @@ nav .buscador2{
     left: 0;
 }
 .fon2{
-    right: -18.3%;
     top: 3%;
+    left: 43%;
     transform: rotate(90deg);
 }
 .fon3{
@@ -79,7 +79,7 @@ nav .buscador2{
     top: 23%;
 }
 .fon4{
-    right: -18.3%;
+    left: 43%;
     top: 28%;
     transform: rotate(90deg);
 }
@@ -89,8 +89,8 @@ nav .buscador2{
     top: 59%;
 }
 .fon6{
-    right: -18.3%;
-    top: 71%;
+    left: 43%;
+    top: 74%;
     transform: rotate(90deg);
 }
 button:hover{
@@ -183,7 +183,7 @@ transform-origin:-600px 50%;
 opacity:1}
 }
 
-.fon1, .fon2, .fon3, .fon4, .fon5, .fon6{animation-name: fondosc;animation-duration: 4s;animation-iteration-count: infinite;z-index: -1;}
+.fon1, .fon2, .fon3, .fon4, .fon5, .fon6{animation-name: fondosc;animation-duration: 4s;animation-iteration-count: infinite;z-index: -1;width: 76%;}
 
 @keyframes fondosc {
 0%{opacity:0}
