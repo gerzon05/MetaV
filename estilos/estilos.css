@@ -7,6 +7,7 @@
 *{
     font-family: 'Orbitron', sans-serif;
 }
+
 span{
     background: linear-gradient(97.16deg, #F86CF8 12.04%, #64CEF5 81.84%);
     -webkit-background-clip: text;
@@ -23,6 +24,13 @@ p, li{
 nav .buscador1 .busca, nav .buscador2{
     display: none;
 }
+nav .buscador1 .logo{
+    font-weight: bold;
+    text-shadow: 1px 1px 0px blue,
+                 2px 2px 0px blue,
+                 3px 3px 0px blue,
+                 4px 4px 0px blue;
+}
 nav .buscador1{
     color: white;
     margin: 0;
@@ -33,17 +41,85 @@ nav .buscador2{
     width: 100%;
 }
 /* parte1 */
-.parte1 .columna1 .boton1p1, .parte2 .textop2 button,.parte3 div .b1p3{
+.parte2 .textop2 button,.parte3 div .b1p3{
     border: 0;
+    background: transparent;
     background: linear-gradient(97.16deg, #D10ED1 12.04%, #10A3DA 81.84%);
+}
+.parte1 .columna1 h2,.parte1 .columna1 h2 b{
+    margin-bottom: 6%;
 }
 .parte1 .columna1 .boton2p1, .parte3 div .b2p3{
     background: transparent;
     border: 1px solid blue;
 }
-
-.parte1 .columna1 h2{
-    margin-bottom: 6%;
+.parte1 .columna1 .boton1p1{
+    position: relative;
+    border:0;
+    background: transparent;
+    overflow: hidden;
+}
+.parte1 .columna1 .boton1p1::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(97.16deg, #D10ED1 12.04%, #10A3DA 81.84%);
+    z-index: -2;
+}
+.parte1 .columna1 .boton1p1::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    left: 0;
+    bottom: -150px;
+    border-radius: 30%;
+    background-color: #151e3f;
+    z-index: -1;
+}
+.parte1 .columna1 .boton1p1:hover::before{
+    animation: boton2 2s linear both;
+}
+@keyframes boton2 {
+    0%{transform: rotate(50deg);}
+    100%{bottom: 100px;
+        transform: rotate(250deg);}
+}
+.parte1 .columna1 .boton2p1{
+    position: relative;
+    overflow: hidden;
+}
+.parte1 .columna1 .boton2p1::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgb(10, 157, 255);
+    z-index: -2;
+}
+.parte1 .columna1 .boton2p1::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    left: 0;
+    bottom: -150px;
+    border-radius: 30%;
+    background-color: #151e3f;
+    z-index: -1;
+}
+.parte1 .columna1 .boton2p1:hover::before{
+    animation: boton1 2s linear both;
+}
+@keyframes boton1 {
+    0%{transform: rotate(300deg);}
+    100%{bottom: 100px;
+        transform: rotate(360deg);}
 }
 .parte1 .columna1 p{
     margin-bottom: 10%;
@@ -82,6 +158,8 @@ nav .buscador2{
     top: 0%;
     z-index: 2;
     cursor: pointer;
+    display: none;
+    
 }
 .footer{
     background: #090823;
@@ -114,39 +192,6 @@ nav .buscador2{
     left: 43%;
     top: 74%;
     transform: rotate(90deg);
-}
-button:hover{
-    opacity: 0;
-    animation-name: magic;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-  }
-@keyframes magic {
-    0%{
-        opacity: 0;
-        transform: scale(.3) translate3d(0px, 0px, 0px);
-    }
-    50%{
-        opacity: .9;
-        transform: scale(1.1);
-    }
-    80%{
-        opacity: 1;
-        transform: scale(.89);
-    }
-    100%{
-        opacity: 1;
-        transform: scale(1) translate3d(0px, 0px, 0px);
-    }
-/*            100% {
-      opacity: 0;
-      -webkit-transform-origin: 200% 500%;
-      transform-origin: 200% 500%;
-      -webkit-transform: scale(0, 0) rotate(270deg);
-      transform: scale(0, 0) rotate(270deg);
-    }
-*/
 }
 
 .parte1 .columna2 .img-fluit{
@@ -347,4 +392,94 @@ opacity:1}
 
 .animacion ul li:hover .fa-brands{
     color: #fff;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    place-items: center;
+    text-align: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6s .9s;
+    --transform: translateY(-100vh);
+    --transition: transform .8s;
+}
+.modal--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity .6s;
+    --transform: translateY(0);
+    --transition: transform .8s .8s;
+}
+.modal > div{
+    margin: auto;
+    width: 100%;
+    background-color: rgb(203 111 255 / 25%);
+    height: 70%;
+    border-radius: 6px;
+    padding: 6% 6%;
+    display: grid;
+    gap: 0;
+    position: relative;
+    transform: var(--transform);
+    transition: var(--transition);
+}
+.modal div a{
+    top: 1%;
+    position: absolute;
+    right: 2%;
+}
+.modal div a > i{
+    font-size: 33px;
+    color: white;
+}
+.modal div h2{
+    margin: 0;
+    height: 0px;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+.modal div form{
+    display: grid;
+    width: 100%;
+    gap: 2px;
+}
+.modal input{
+    background-color: rgb(255 255 255 / 77%);
+    color: black;
+    border-radius: 7px;
+    border: 1px solid #3c0080;
+    width: 100%;
+    font-family: sans-serif;
+    height: 100%;
+}
+.modal div form p{
+    color: #c3a5a5;
+    align-items: center;
+    display: flex;
+    height: 15px;
+    margin: 2% 0;
+    font-size: 9px;
+}
+.modal div form p > input{
+    width: 10%;
+}
+.modal div form > .input{
+    text-align: center;
+    margin-top: -3%;
+}
+.modal div form > .input input{
+    width: 100%;
+    background-color: rgb(46 225 106 / 49%);
+    color: white;
+}
+.modal div form .form1{
+    display: grid;
+    gap: 2px;
 }

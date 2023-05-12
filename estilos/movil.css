@@ -244,6 +244,12 @@
         height: 8px;
         width: 100%;
     }
+    .modal > div{
+        max-width: 290px;
+    }
+    .modal div form p{
+        font-size: 8px;
+    }
 }
 @media (min-width:350px) and (max-width: 449.98px){
     nav .buscador2{
@@ -488,6 +494,12 @@
         left: -6px;
         height: 12px;
         width: 100%;
+    }
+    .modal > div{
+        max-width: 340px;
+    }
+    .modal div form p{
+        font-size: 9px;
     }
 }
 @media (min-width:450px) and (max-width: 575.98px){
@@ -734,6 +746,9 @@
         height: 12px;
         width: 100%;
     }
+    .modal > div{
+        max-width: 440px;
+    }
 }
 @media (min-width: 576px) and (max-width: 767.98px){
     nav .buscador2{
@@ -979,12 +994,17 @@
         height: 12px;
         width: 100%;
     }
+    .modal > div{
+        max-width: 500px;
+    }
+
 }
 @media (min-width: 768px) and (max-width: 991.98px){
     nav .buscador1 .busca{
         display: block;
         padding: 0;
-        font-size: 14px;
+        font-size: 11px;
+        text-align: center;
     }
     nav .buscador1 .menu{
         display: none;
@@ -996,7 +1016,7 @@
     .parte1 .columna2 .logosp2{
         display:none;
     }
-    .parte1 .columna2 div{
+    .parte1 .columna2 > .tp1, .tp2, .tp3{
         display:none;
     }
     .parte1{
@@ -1170,12 +1190,19 @@
         height: 6px;
         width: 100%;
     }
+    .modal > div{
+        max-width: 400px;
+    }
+    .modal div form p{
+        font-size: 8px;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199.98px){
     nav .buscador1 .busca{
         display: block;
         padding: 0;
-        font-size: 19px;
+        font-size: 14px;
+        text-align: center;
     }
     nav .buscador1 .menu{
         display: none;
@@ -1188,7 +1215,7 @@
     .parte1 .columna2 .logosp2{
         display:none;
     }
-    .parte1 .columna2 div{
+    .parte1 .columna2 > .tp1, .tp2, .tp3{
         display:none;
     }
     .parte1{
@@ -1365,12 +1392,19 @@
         height: 10px;
         width: 100%;
     }
+    .modal > div{
+        max-width: 430px;
+    }
+    .modal div form p{
+        font-size: 8px;
+    }
 }
 @media (min-width: 1200px) and (max-width: 1399.98px){
     nav .buscador1 .busca{
         display: block;
         padding: 0;
         font-size: 17px;
+        text-align: center;
     }
     nav .buscador1 .menu{
         display: none;
@@ -1383,7 +1417,7 @@
     .parte1 .columna2 .logosp2{
         display:none;
     }
-    .parte1 .columna2 div{
+    .parte1 .columna2 > .tp1, .tp2, .tp3{
         display:none;
     }
     .parte1{
@@ -1560,6 +1594,12 @@
         height: 10px;
         width: 100%;
     }
+    .modal > div{
+        max-width: 490px;
+    }
+    .modal div form p{
+        font-size: 10px;
+    }
 }
 @media (min-width: 1400px) and (max-width:1699.98px){
     nav .buscador1 .busca{
@@ -1578,7 +1618,7 @@
     .parte1 .columna2 .logosp2{
         display:none;
     }
-    .parte1 .columna2 div{
+    .parte1 .columna2 > .tp1, .tp2, .tp3{
         display:none;
     }
     .parte1{
@@ -1755,6 +1795,12 @@
         height: 10px;
         width: 100%;
     }
+    .modal > div{
+        max-width: 500px;
+    }
+    .modal div form p{
+        font-size: 10px;
+    }
 }
 @media (min-width: 1700px) and (max-width:1999.98px){
     nav .buscador1 .busca{
@@ -1773,7 +1819,7 @@
     .parte1 .columna2 .logosp2{
         display:none;
     }
-    .parte1 .columna2 div{
+    .parte1 .columna2 > .tp1, .tp2, .tp3{
         display:none;
     }
     .parte1{
@@ -1950,6 +1996,12 @@
         height: 10px;
         width: 100%;
     }
+    .modal > div{
+        max-width: 607px;
+    }
+    .modal div form p{
+        font-size: 8px;
+    }
 }
 @media (min-width: 2000px){
     nav .buscador1 .busca{
@@ -1968,7 +2020,7 @@
     .parte1 .columna2 .logosp2{
         display:none;
     }
-    .parte1 .columna2 div{
+    .parte1 .columna2 > .tp1, .tp2, .tp3{
         display:none;
     }
     .parte1{
@@ -2146,6 +2198,12 @@
         left: -5px;
         height: 10px;
         width: 100%;
+    }
+    .modal > div{
+        max-width: 650px;
+    }
+    .modal div form p{
+        font-size: 14px;
     }
 }
 @media (min-width:768px) {
